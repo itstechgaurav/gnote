@@ -1,6 +1,10 @@
 let yargs = require('yargs');
+let appDetails = require('./appDetails');
+yargs.scriptName('gnote');
 
-yargs.scriptName('gnote')
+// check and show if no command passed
+let showAppDetails = !['add', 'list', 'remove', 'update', 'auth'].includes(yargs.argv._[0]);
+if(showAppDetails) appDetails();
 
 yargs.command({
     command: 'add',
@@ -62,6 +66,15 @@ yargs.command({
     },
     handler: require('./deleteNote')
 });
+
+
+// commnad for author info
+
+yargs.command({
+    command: "auth",
+    describe: "Show details about the author",
+    handler: appDetails
+})
 
 
 yargs.demandCommand().parse();
