@@ -1,9 +1,9 @@
 #
-#Introduction
+# Introduction
 
 This Package (**gnote**) is used to take notes... this is super simple Just Follow Some command and make it happen
 
-####Contents
+#### Contents
 
 1. [Intro](#intro)
 2. [Installation](#installation)
