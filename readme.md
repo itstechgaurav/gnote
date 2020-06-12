@@ -1,3 +1,4 @@
+#
 #Introduction
 
 This Package (**gnote**) is used to take notes... this is super simple Just Follow Some command and make it happen
@@ -6,12 +7,12 @@ This Package (**gnote**) is used to take notes... this is super simple Just Foll
 
 1. [Intro](#intro)
 2. [Add notes](#add-notes)
-3. [Show All Notes](#show-notes)
+3. [Show All Notes](#show-all-notes)
 4. [Show Note Details](#show-note-details)
 5. [Update Note](#update-note)
 6. [Delete Note](#delete-note)
 
-#### 1 - Intro {: #intro }
+#### Intro
 
 To get intro of the app use following command
 
@@ -23,7 +24,7 @@ gnote
 
 #
 
-#### 2 - Add Notes {: #add-notes }
+#### Add Notes
 
 To Add Notes use Following Command
 
@@ -38,7 +39,7 @@ gnote add --title="My First Note" --body="This is my First Note"
 #
 
 
-#### 3 - Show All Notes {: #show-notes }
+#### Show All Notes
 
 To Show Notes use Following Command
 
@@ -47,7 +48,7 @@ gnote list
 ```
 #
 
-#### 4 - Show Note Details {: #show-note-details }
+#### Show Note Details
 
 To Show Details About A Single Note Use Following Command
 
@@ -60,7 +61,7 @@ gnote list --title="My First Note"
 
 #
 
-#### 5 - Update Notes {: #update-note }
+#### Update Note
 
 To Update Note use Following Command with the ``` title ``` of the existing note
 
@@ -74,7 +75,7 @@ gnote update --title="My First Note" --body="This is my First Note"
 
 #
 
-#### 6 - Delete Notes {: #delete-note }
+#### Delete Note
 
 To Delete Note use Following Command with the ``` title ``` of the existing note
 
