@@ -6,11 +6,12 @@ This Package (**gnote**) is used to take notes... this is super simple Just Foll
 ####Contents
 
 1. [Intro](#intro)
-2. [Add notes](#add-notes)
-3. [Show All Notes](#show-all-notes)
-4. [Show Note Details](#show-note-details)
-5. [Update Note](#update-note)
-6. [Delete Note](#delete-note)
+2. [Installation](#installation)
+3. [Add notes](#add-notes)
+4. [Show All Notes](#show-all-notes)
+5. [Show Note Details](#show-note-details)
+6. [Update Note](#update-note)
+7. [Delete Note](#delete-note)
 
 #### Intro
 
@@ -21,6 +22,18 @@ gnote
 ```
 
 *no **argument** needed*
+
+#
+
+#### installation
+
+this package usesfull only if you install it globally
+
+```
+npm i -g gnote
+```
+
+use this command to install it
 
 #
 
