@@ -1,6 +1,6 @@
 {
   "name": "gnote",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "a simple note taking app",
   "main": "index.js",
   "bin": {
